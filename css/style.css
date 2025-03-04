@@ -10,7 +10,7 @@ section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 24px;
-    background-color: red;
+    background-color: #8C031C;
     grid-auto-flow: dense;
     text-align: center;
     margin: auto;
