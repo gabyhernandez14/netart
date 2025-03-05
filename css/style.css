@@ -25,3 +25,10 @@ body {
 p {
     grid-column: 2 / span 10;
 }
+
+li {
+    margin: auto;
+    text-align: center;
+    
+}
+
