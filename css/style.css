@@ -1,11 +1,13 @@
 h1 {
     grid-column: 1 / span 12;
+    background-color: white;
+    text-align: center;
 }
 
 img {
     width: 50%;
     margin: auto;
-
+    text-align: center;
 }
 
 section {
@@ -22,10 +24,15 @@ body {
     font-family: "Reddit Mono", monospace;
     font-size:xx-large;
     font-weight:100;
+    background-color:#8C031C;
+    margin: auto;
 }
 
 p {
     grid-column: 2 / span 10;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-weight: 100;
 }
 
 li {
@@ -66,3 +73,8 @@ h3 {
     grid-column: 1 / span 4;
 }
 
+#interface {
+    grid-column: 5 / span 4;
+    margin: auto;
+    text-align: center;
+}
