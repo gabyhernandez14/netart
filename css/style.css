@@ -14,7 +14,7 @@ section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 24px;
-    background-color: #8C031C;
+    background-color: #ad0423;
     grid-auto-flow: dense;
     text-align: center;
     margin: auto;
@@ -24,7 +24,7 @@ body {
     font-family: "Reddit Mono", monospace;
     font-size:xx-large;
     font-weight:100;
-    background-color:#8C031C;
+    background-color:#c10628;
     margin: auto;
 }
 
@@ -45,7 +45,7 @@ h3 {
 }
 
 #cam {
-    grid-column: 1 / span 4;
+    grid-column: 3 / span 4;
 }
 
 #photo {
@@ -53,13 +53,12 @@ h3 {
 }
 
 #filter {
-    grid-column: 9 / span 4;
+    grid-column: 7 / span 4;
 }
 
 #photobutton {
-    grid-column: 10 / span 4;
+    grid-column: 8 / span 4;
     width: 100px;
-    height: 105px;
     background-color:#8C031C;
 }
 
@@ -70,11 +69,38 @@ h3 {
 }
 
 #filterbutton {
-    grid-column: 1 / span 4;
+    grid-column: 5 / span 4;
+    color:#8C031C;
+    width: 250px;
 }
 
 #interface {
     grid-column: 5 / span 4;
     margin: auto;
     text-align: center;
+}
+
+#interfacetwo {
+    grid-column: 5 / span 4;
+    width: 1050px;
+    margin: auto;
+    text-align: center;
+}
+#one {
+    grid-column: 1 / span 4;
+    width: 550px;
+}
+ #two {
+    grid-column: 5 / span 4;
+    width: 350px;
+}
+
+#cars {
+    grid-column: 9 / span 4;
+    width: 550px;
+}
+
+#halloween {
+    grid-column: 1 / span 4;
+    width: 550px;
 }
