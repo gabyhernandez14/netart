@@ -17,11 +17,23 @@
     <body>
     <section>
        <h1>Welcome to Photo-Booth Memories. Take a photo to learn more about mine!</h1> 
+       <video id="video" autoplay playsinline></video>
+    <script>
+      async function startCamera() {
+        try {
+          const stream = await navigator.mediaDevices.getUserMedia({
+            video: { facingMode: "user" },
+          });
+          document.getElementById("video").srcObject = stream;
+        } catch (error) {
+          console.error("Error accessing camera:", error);
+        }
+      }
+      startCamera();
+    </script>
        <br>
        <br>
        <br>
-       <br>
-       <img src="img/interface.png" style="width: 950px" id="interface">
        <a href="home.html" class="button" id="camerahome">
             <img src="img/cambutton.png">
        </a>
