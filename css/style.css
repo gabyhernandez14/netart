@@ -58,20 +58,24 @@ h3 {
 
 #photobutton {
     grid-column: 8 / span 4;
-    width: 100px;
     background-color:#8C031C;
+    width: 45%;
 }
 
 #camerabutton {
     grid-column: 5 / span 4;
     background-color: #8C031C;
     border-color:#8C031C;
+    width: 20%;
+    margin: auto;
+    margin-top: -11%;
 }
 
+
 #filterbutton {
-    grid-column: 5 / span 4;
-    color:#8C031C;
-    width: 250px;
+    grid-column: 5 / span 3;
+    background-color:#8C031C;
+    width: 40%;
 }
 
 #interface {
@@ -103,4 +107,11 @@ h3 {
 #halloween {
     grid-column: 1 / span 4;
     width: 550px;
+}
+
+#camerahome {
+    grid-column: 5 / span 4;
+    width: 25%;
+    margin: auto;
+    margin-top: 5%;
 }
