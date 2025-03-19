@@ -20,6 +20,7 @@ section {
     margin: auto;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 5%;
 }
 
 body {
@@ -58,6 +59,7 @@ h3 {
 
 #filter {
     grid-column: 7 / span 4;
+    font-size: 12px;
 }
 
 #photobutton {
@@ -101,15 +103,21 @@ h3 {
 #one {
     grid-column: 1 / span 4;
     width: 350px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
 }
  #two {
     grid-column: 5 / span 4;
     width: 350px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
 }
 
 #cars {
     grid-column: 9 / span 4;
-    width: 250px;
+    width: 350px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
 }
 
 #halloween {
@@ -142,3 +150,38 @@ video {
     margin-bottom: 10%;
 }
 
+#onedesc {
+    grid-column: 1 / span 4;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-size: 12px;
+    margin: 15%;
+}
+
+#twodesc {
+    grid-column: 5 / span 4;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-size: 12px;
+    margin: 15%;
+}
+
+#cardesc {
+    grid-column: 9 / span 4;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-size: 12px;
+    margin: 15%;
+}
+
+#one:hover {
+    transform: scale(1.05);
+}
+
+#two:hover {
+    transform: scale(1.05);
+}
+
+#cars:hover {
+    transform: scale(1.05);
+}
