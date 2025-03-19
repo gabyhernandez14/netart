@@ -82,7 +82,7 @@ h3 {
     background-color:#8C031C;
     width: 40%;
     height: 40%;
-    margin-bottom: -20%;
+    margin-bottom: -50%;
 }
 
 #interface {
@@ -210,4 +210,14 @@ video {
 
 #dress:hover {
     transform: scale(1.25);
+}
+
+#homebut {
+    background-color: white;
+    color:black;
+}
+
+#backbut {
+    background-color: white;
+    color:black;
 }
