@@ -123,6 +123,22 @@ h3 {
 #halloween {
     grid-column: 1 / span 4;
     width: 350px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+#dad {
+    grid-column: 5 / span 4;
+    width: 350px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+#dress {
+    grid-column: 9 / span 4;
+    width: 250px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
 }
 
 #camerahome {
@@ -183,5 +199,17 @@ video {
 }
 
 #cars:hover {
+    transform: scale(1.05);
+}
+
+#halloween:hover {
+    transform: scale(1.05);
+}
+
+#dad:hover {
+    transform: scale(1.05);
+}
+
+#dress:hover {
     transform: scale(1.05);
 }
