@@ -191,25 +191,25 @@ video {
 }
 
 #one:hover {
-    transform: scale(1.05);
+    transform: scale(1.25);
 }
 
 #two:hover {
-    transform: scale(1.05);
+    transform: scale(1.25);
 }
 
 #cars:hover {
-    transform: scale(1.05);
+    transform: scale(1.25);
 }
 
 #halloween:hover {
-    transform: scale(1.05);
+    transform: scale(1.25);
 }
 
 #dad:hover {
-    transform: scale(1.05);
+    transform: scale(1.25);
 }
 
 #dress:hover {
-    transform: scale(1.05);
+    transform: scale(1.25);
 }
