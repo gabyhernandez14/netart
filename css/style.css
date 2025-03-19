@@ -221,3 +221,10 @@ video {
     background-color: white;
     color:black;
 }
+
+#diskbut {
+    width: 1500px;
+    text-align: center;
+    margin-left: -10%;
+    background-color: #c10628;
+}
