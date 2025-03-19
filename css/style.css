@@ -49,6 +49,7 @@ h3 {
 
 #cam {
     grid-column: 3 / span 4;
+    font-size: 12px;
 }
 
 #photo {
@@ -65,13 +66,14 @@ h3 {
     width: 45%;
 }
 
+
 #camerabutton {
     grid-column: 5 / span 4;
     background-color: #8C031C;
     border-color:#8C031C;
     width: 20%;
     margin: auto;
-    margin-top: -8%;
+    margin-top: -16%;
 }
 
 
@@ -80,7 +82,7 @@ h3 {
     background-color:#8C031C;
     width: 40%;
     height: 40%;
-    margin-bottom: -15%;
+    margin-bottom: -20%;
 }
 
 #interface {
@@ -128,5 +130,15 @@ video {
     border-radius: 10px;
     grid-column: 5 / span 4;
     margin: auto;
+}
+
+#videotwo {
+    width: 750px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    grid-column: 5 / span 4;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
